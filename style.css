@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    padding: 8px 30px;
+    text-decoration: none;
+
+}
+
+.navbar ul li a:hover {
+    background-color: beige;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
