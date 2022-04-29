@@ -37,6 +37,7 @@
 
 .image:hover {
     box-shadow: 0 0 25px pink;
+    right: 25px;
 }
 
 .heading {
@@ -53,6 +54,11 @@
     color: white;
 }
 
+#name:hover {
+    position: relative;
+    text-shadow: 2px 2px white;
+}
+
 .home {
     background-image: url("bg1.jpeg");
 }
@@ -60,6 +66,12 @@
 .h3_heading {
     font-family: Arial;
     font-size: 25pt;
+    text-shadow: 2px 2px grey;
+}
+
+.h3_heading:hover {
+    position: relative;
+    right: 5px;
 }
 
 .para {
@@ -67,6 +79,11 @@
     font-style: italic;
     font-size: 18pt;
     margin-top: 0%;
+}
+
+.para:hover {
+    position: relative;
+    left: 5px;
 }
 
 .aboutMe {
@@ -78,6 +95,12 @@
 .h3_1_heading {
     font-family: Arial;
     font-size: 25pt;
+    text-shadow: 2px 2px grey;
+}
+
+.h3_1_heading:hover {
+    position: relative;
+    right: 5px;
 }
 
 .work {
@@ -89,8 +112,13 @@
 .workExperience {
     display: inline-block;
     text-align: center;
-    background-image: url("bg3.jpeg");
-    /* background: linear-gradient(90deg, rgba(48, 9, 246, 0.5583275546546744) 0%, rgba(27, 126, 203, 0.18857965549501055) 99%);*/
+    background-image: url("bg2.jpeg");
+
+}
+
+.work:hover {
+    position: relative;
+    left: 5px;
 }
 
 .fa {
