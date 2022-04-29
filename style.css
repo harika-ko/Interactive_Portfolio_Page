@@ -28,3 +28,102 @@
     color: black;
     box-shadow: 0 0 10px white;
 }
+
+.image {
+    display: absolute;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.image:hover {
+    box-shadow: 0 0 25px pink;
+}
+
+.heading {
+    margin-left: 7%;
+    margin-top: 10%;
+    float: left;
+    font-size: 25pt;
+    font-family: Arial;
+    color: lightblue;
+}
+
+#name {
+    font-family: Lucida Handwriting;
+    color: white;
+}
+
+.home {
+    background-image: url("bg1.jpeg");
+}
+
+.h3_heading {
+    font-family: Arial;
+    font-size: 25pt;
+}
+
+.para {
+    text-align: center;
+    font-style: italic;
+    font-size: 18pt;
+    margin-top: 0%;
+}
+
+.aboutMe {
+    display: inline-block;
+    text-align: center;
+    background-image: url("bg2.jpeg");
+}
+
+.h3_1_heading {
+    font-family: Arial;
+    font-size: 25pt;
+}
+
+.work {
+    text-align: center;
+    font-style: italic;
+    font-size: 18pt;
+}
+
+.workExperience {
+    display: inline-block;
+    text-align: center;
+    background-image: url("bg3.jpeg");
+    /* background: linear-gradient(90deg, rgba(48, 9, 246, 0.5583275546546744) 0%, rgba(27, 126, 203, 0.18857965549501055) 99%);*/
+}
+
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 90px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.h3_2_heading {
+    text-align: center;
+    font-family: Arial;
+    font-size: 25pt;
+}
