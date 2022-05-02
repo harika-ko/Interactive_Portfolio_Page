@@ -82,12 +82,17 @@
 
 .home {
     background-image: url("bg1.jpeg");
+    display: block;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .h3_heading {
     font-family: Arial;
     font-size: 25pt;
     text-shadow: 2px 2px grey;
+    margin: 0px;
+    padding-top: 8px;
 }
 
 .h3_heading:hover {
@@ -108,7 +113,8 @@
 }
 
 .aboutMe {
-    display: inline-block;
+    display: block;
+    margin-top: -4px;
     text-align: center;
     background-image: url("bg3.jpeg");
     background-size: 2000px 992px;
@@ -118,6 +124,7 @@
     font-family: Arial;
     font-size: 25pt;
     text-shadow: 2px 2px grey;
+    margin: 0px;
 }
 
 .h3_1_heading:hover {
@@ -132,7 +139,9 @@
 }
 
 .workExperience {
-    display: inline-block;
+    margin-top: -24px;
+    padding-top: 8px;
+    display: block;
     text-align: center;
     background-image: url("bg3.jpeg");
     background-size: 2000px 992px;
