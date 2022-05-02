@@ -3,6 +3,7 @@
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
+    top: 0;
 }
 
 .navbar ul {
@@ -49,7 +50,27 @@
     color: lightblue;
 }
 
+@keyframes example {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: violet;
+    }
+
+    100% {
+        color: green;
+    }
+}
+
 #name {
+    animation-name: example;
+    animation-duration: 5s;
     font-family: Lucida Handwriting;
     color: white;
 }
@@ -89,7 +110,8 @@
 .aboutMe {
     display: inline-block;
     text-align: center;
-    background-image: url("bg2.jpeg");
+    background-image: url("bg3.jpeg");
+    background-size: 2000px 992px;
 }
 
 .h3_1_heading {
@@ -112,7 +134,8 @@
 .workExperience {
     display: inline-block;
     text-align: center;
-    background-image: url("bg2.jpeg");
+    background-image: url("bg3.jpeg");
+    background-size: 2000px 992px;
 
 }
 
